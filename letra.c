@@ -11,7 +11,11 @@ int main()
   {
     printf("\nLetra Maiuscula!!\n");
   }
-  else
+  else if((letra>=48) && (letra<=57) )
+  {
+    printf("\nVoce digitou um numero!!\n");
+  }
+  else if(  (letra>=97) && (letra<=122) )
   {
     printf("\nLetra Minuscula!!\n");
   }
